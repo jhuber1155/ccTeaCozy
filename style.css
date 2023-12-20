@@ -3,17 +3,26 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     text-align: center;
 }
 
-.header {
+header {
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 69px;
     width: 100%;
+    border-bottom: 1px solid seashell;
+    opacity: 0.9;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .logo {
@@ -25,6 +34,7 @@
     display: flex;
     list-style: none;
     background-color: black;
+
 }
 
 .navbar li {
@@ -34,3 +44,32 @@
 .navbar a:hover {
     color: cyan;
 }
+
+#mission{
+    position: relative;
+    top: 70px;
+    background-image: url(./assets/images/img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+#mission-h2{
+    position: relative;
+    top: 10px;
+    font-size: xx-large;
+    background-color: black;
+    width: 1200px;
+    margin-top: 0px;
+}
+
+#mission-p{
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+}
+
+
