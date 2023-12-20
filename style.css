@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+}
+
+.logo {
+    max-height: 50px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    background-color: black;
+}
+
+.navbar li {
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    color: cyan;
+}
